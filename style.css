@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    font-size: 14px;
+    color: #6c7279;
+    background-color: #fff;
+    -webkit-font-smoothing: antialiased;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0 0 10px 0;
+}
+
+.wrapper {
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url("wrapper.jpg") center no-repeat;
+    background-size: cover;
+    justify-content: center;
+    opacity: 0.8;
+}
+
+.wrapper__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 55%;
+}
+
+.wrapper__title {
+    margin: 0 0 px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 35px;
+    color: red;
+    font-weight: 600;
+    line-height: 71px;
+    text-transform: uppercase;
+    letter-spacing: -1.1px;
+}
+
+.wrapper__subtitle {
+    font-family: 'Lato', sans-serif;
+    font-size: 22px;
+    font-weight: normal;
+    color: #fff;
+    line-height: 1.5;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.left_block {
+    padding-left: 270px;
+    padding-top: 0;
+}
+
+ul {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.left_side {
+    padding-top: 0;
+    padding-bottom: 15px;
+    list-style-type: none;
+}
+
+.right_side {
+    padding-right: 310px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.fields {
+    width: 360px;
+    height: 32px;
+}
+
+textarea {
+    width: 350px;
+    height: 125px;
+    resize: none;
+}
+
+.button {
+    padding-top: 25px;
+}
+
+
+/*======================== BUTTON ====================*/
+
+.button {
+    display: flex;
+    align-self: center;
+}
+
+.btn {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 13px;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 14px 25px;
+    border-radius: 6px;
+    font-family: inherit;
+    text-align: center;
+    border: 0;
+    cursor: pointer;
+    transition: background 0.1s linear;
+}
+
+.btn--red {
+    background-color: blue;
+}
+
+.btn--red:hover {
+    background-color: turquoise;
+}
+
+.btn--long {
+    min-width: 280px;
+}
